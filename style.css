@@ -1,5 +1,6 @@
 a {
     font-weight: bolder;
+    color: chartreuse;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
     font-size: large;
     font-family: serif;
     font-weight: bolder;
+    color: darkgrey;
 }
 
 .header {
@@ -22,7 +24,6 @@ body {
 .content {
     border-style: solid;
     border-color: aquamarine;
-    background-color: aquamarine;
     height: fit-content;
     border-radius: 5%;
     margin-bottom: 20px;
@@ -35,7 +36,6 @@ body {
     border-color: gold;
     border-radius: 5%;
     display: scroll;
-    background-color: gold;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -47,18 +47,14 @@ body {
     border-radius: 5%;
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color: pink;
-    display: inline-block;
 }
 
 .contacts {
     border-style: solid;
     border-color: brown;
     border-radius: 5%;
-    background-color: brown;
     margin-top: 10px;
     margin-bottom: 20px;
-    float: right;
 }
 
 footer {
@@ -106,4 +102,11 @@ footer {
 
 .dropdown a:hover {
     background-color: rgb(127, 119, 108);
+}
+h2 {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: darkgrey;
+    text-decoration: underline;
 }
