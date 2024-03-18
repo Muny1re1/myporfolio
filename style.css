@@ -1,0 +1,105 @@
+a {
+    font-weight: bolder;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg&ga=GA1.2.971575008.1709635914&semt=ais);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: large;
+    font-family: serif;
+    font-weight: bolder;
+}
+
+.header {
+    color: red;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+    display: float;
+}
+
+.content {
+    border-style: solid;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    overflow: scroll;
+    height: fit-content;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.Projects {
+    border-style: solid;
+    border-width: 4px;
+    border-color: gold;
+    border-radius: 5%;
+    display: scroll;
+    background-color: gold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+
+/* remember to complete the scroll attribute */
+.Referrees {
+    border-style: solid;
+    border-width: 4px;
+    border-color: pink;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: pink;
+    display: inline-block;
+}
+
+.contacts {
+    border-style: solid;
+    border-color: brown;
+    border-radius: 5%;
+    background-color: brown;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: right;
+}
+footer {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: red;
+    background-color: aqua;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(3, 197, 197);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: azure;
+}
+.dropdown .things {
+    background-color: beige;
+    position: absolute;
+    box-shadow: 5px, 5px, 5px, red;
+    display: none;
+    min-width: 80px;
+}
+.dropdown a {
+display: block;
+color:black;
+text-decoration: none;
+padding: 15px;
+}
+.dropdown:hover .things {
+    display: block;
+}
+.drpdown:hover button{
+    background-color: rgb(0, 33, 33);
+}
+.dropdown a:hover {
+    background-color: rgb(127, 119, 108);
+}
+
